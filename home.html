@@ -13,12 +13,15 @@
 
     <script>
      checkuser = navigator.onLine
-     if(checkuser){
-        document.write("<h3>You ARE online...</h3>")
+    
+     if(!checkuser){
+        document.write(" check your internet connection and stay online otherwise logout automatically your id.")
+        setTimeout(() => {
+            localStorage.removeItem("name")
+        }, 15000);
      }else{
-        document.write(`<h4>Check your intent connection </h4>`)
+      document.write("you are online")
      }
-
        setTimeout(() => {
         console.log("hyeee")
        },2000 );
