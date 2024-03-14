@@ -1,0 +1,111 @@
+js =>  javascript 
+javascript is a scripting/programming language that use for build logics
+and to build a dynamic web page .
+extension  => .js
+we can use two type of js => 
+1. internal js
+2.external js
+
+internal js =>
+internal use in html file with <script> </script> tag.
+
+external js => external js use with it extension .js . when we run a js 
+extension file our output show in console / terminal.
+
+
+1.Varibales => variables is a special charcter or a single word
+that use to store the whole value of any content.we can reuse
+the varibales .
+we can define different values in a varibale=>
+1.String value
+2.Number value
+3.Object
+4.Array
+5.Boolean
+6.Null
+7.Undefined
+8.Zero  
+
+2.Display posibilities =>
+console =>
+a.console.log()
+b.console.warn()
+c.console.error()
+d.console.table()
+
+document.write() => for use Display the value in body
+
+popup methods => for use to dynamic value or take a value from user.
+a. prompt() => prompt is a js function that allows for take a value from user . 
+prompt value store in string . when we should change this data type into number
+then we use eval().
+
+* and we should check data type of any varibale then we use typeof()
+function.
+
+`` => template literlas => for use to define the statement and a variable 
+, function in same line then we use like this `stament  ${js}`. in template
+literlas we can use any tag.
+
+operators => operators use for mathematical operations and condition statement
+
+a. airthemetic operators => airthemetic are those special keywords that use for mathematical 
+operations.
+e.g=> + , - , * , / 
+
+b. assigment operator => assigment operators use for also mathematical
+ operations but in these operators we can assign the value with using of 
+ +,-,*,/
+ += , -= , *= , /=
+
+ c . comparison operator => comparison operator use for compare multiple 
+ values.comparison operator check the  value is boolean (true or false)
+ or not.
+ > , < , >= ,<= , = , == , ===
+
+d.ternary operator => ternary operator also check the boolean true or false
+in ternary operator there are three expressions .
+e.g => ist?2nd:3rd
+in this example ist expressions is check condition . and 2nd expressions
+Display the output of statement when condition is true .and 3rd expressions
+Display the output of stament when condition is false.
+
+logical operator => to use check the multiple conditions at a time .
+logical operator can change condition.
+A. && => AND OPERATOR => and operator check the multiple conditon . our 
+output show when both condition are true. when only one condition is true
+then its all condition false.
+ E.G =>
+ FALSE && FALSE = FALSE
+ FALSE && TRUE= FALSE
+ TRUE && FALSE = FALSE
+ TRUE && TRUE = TRUE
+B. || => OR OPERATOR => or operator show output when only one condition is
+ true.
+ E.G =>
+ FALSE || TRUE = TRUE
+ TRUE || FALSE = TRUE
+ TRUE || TRUE = TRUE
+ FALSE || FALSE = FALSE
+ c. ! => NOT OPERATOR => when we should change the condition in true to false, false to true
+ then we use ! not operator
+ E.G =>
+ !TRUE = FALSE
+ !FALSE = TRUE
+
+ shorthand operators =>
+ increment and decrement operatos => use to increase or decrease a value 
+ by 1.
+ ++ => increment operator
+ -- => decrement operator
+
+ condition statements =>
+ if 
+ if else
+ if else if
+ if if if else => nested if else
+ =
+ if => if show the output of true condition
+ else => when condition is false then statemt show of else
+
+

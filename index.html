@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body oncontextmenu="return false">
+
+
+  <script>
+
+    myusername = prompt("enter your username")
+    mypassword = eval(prompt("enter your password"))
+    if (mypassword === 12345 && myusername === "nirmal1234") {
+      user = true
+    } else {
+      user = false
+    }
+
+    if (user === !true) {
+      document.write("user not found")
+    } else {
+      localStorage.setItem("name",myusername)
+      alert("user login sucessfulyy....")
+      document.write(`<img src="https://i.gifer.com/ZKZg.gif" height="100px" width="100px"/>`)
+     setTimeout(() => {
+      window.location.href = "./home.html"
+     }, 2000);
+    }
+
+  </script>
+
+
+</body>
+
+</html>

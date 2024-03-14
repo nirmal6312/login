@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>this is home page....</h1>
+<button onclick="Logout()">Logout</button>
+
+    <script>
+     checkuser = navigator.onLine
+     if(checkuser){
+        document.write("<h3>You ARE online...</h3>")
+     }else{
+        document.write(`<h4>Check your intent connection </h4>`)
+     }
+
+       setTimeout(() => {
+        console.log("hyeee")
+       },2000 );
+       const myname = localStorage.getItem("name")
+       
+       document.write(`<h3> ${myname} </h3>`)
+       
+       function Logout(){
+        
+        setTimeout(() => {
+            window.location.href = "./index.html"
+        }, 2000);
+        localStorage.removeItem("name")
+       }
+    </script>
+
+</body>
+</html>

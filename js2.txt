@@ -1,0 +1,51 @@
+JS => javascript
+js use to build logics and functionality . js is a programming/
+scripting language that also used for create a dynamic website.
+
+extension => .js
+
+there are two type of js  that we can use =>
+.external js
+2.internal js
+
+external js => external js use with it extension . and display the
+output in terminal of vs code . we can see only output of
+console in external js.
+
+internal js => internal js use in html web page . internal js use 
+with <script> </script> tag in body.
+
+
+display posibilties =>
+console =>
+console.log()
+console.warn()
+console.error()
+console.table()
+
+when we should have display the output in web page. we can use 
+document.write()
+
+varibales => variables is the single character or word that use for store the value of any
+program. we can reuse  the variable when we create only at once time. 
+note: we cant define same name variable  
+e.g 
+a=10
+console.log(a)
+
+popup mthods =>
+a. prompt() => propmpt is a predefine function of js that use for take value from user. for use to
+ user input. prompt always underestood string .
+*. when we should change the typeof string to number . then we use eval()
+ eval is a predefine function that use for change data type string to number.
+
+*. when we should known which type of variable's value . then we use typeof()
+
+operators => operators is the special symbol or character that use for mathematical operations
+and condition statements.
+there are 5 type of operator in javascript =>
+
+1.assignment operator => + , - , * , / these operator specaily use for mathematical programs or
+algorithm.
+
+
